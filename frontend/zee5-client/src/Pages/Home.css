@@ -1,0 +1,99 @@
+#section1Block {
+  width: 100%;
+  height: 432px;
+}
+#section1Block article {
+  width: 95%;
+  height: 432px;
+  margin: 15px auto;
+}
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 13px;
+}
+.topSection h2 {
+  font-size: 23px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #fff;
+}
+.topSection p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2.4rem;
+  color: #a785ff;
+}
+.topSection p span {
+  position: relative;
+  top: 3px;
+  left: 4px;
+}
+.bottomSection {
+  display: flex;
+  align-items: center;
+}
+.bottomSection img {
+  width: 241px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 5px;
+}
+.img1Block,
+.img2Block,
+.img3Block {
+  flex-basis: 18%;
+}
+.bottomSection img:hover {
+  border-radius: 20px;
+  border: 10px solid #fff;
+  transform: scale(1.2);
+  transition: ease all 0.6s;
+}
+
+/* Movie section css */
+#movieSection {
+  width: 100%;
+  height: 500px;
+}
+#movieSection article {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#movieSection article form {
+  width: 60%;
+  height: 400px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+#movieSection article form div{
+width: 50%;
+}
+#movieSection article form input{
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.form-group lable{
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form-group button{
+  width: 100%;
+  height: 30px;
+  background: #a785ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
